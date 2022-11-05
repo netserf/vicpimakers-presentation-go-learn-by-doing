@@ -1,26 +1,28 @@
-# NetSIG Presentation - [Presentation Title]
+# ViPiMakers Presentation - Go: Learn by Doing
 
-[![Actions Status](https://github.com/netserf/template-presentation-repo/workflows/Docs/badge.svg)](https://github.com/netserf/template-presentation-repo/actions)
+[![Actions Status](https://github.com/netserf/vicpimakers-presentation-go-learn-by-doing/workflows/Docs/badge.svg)](https://github.com/netserf/vicpimakers-presentation-go-learn-by-doing/actions)
 
 ## Presentation Summary
 
-In this session we'll look at ...
-Topics will include ...
+In this session we'll play with the Go programming language. Instead of a
+traditional presentation, we'll go through a series of hands-on exercises to
+learn the basics of the language and the workflow required to build and run your
+own Go programs.
 
 ## Presentation Slides
 
-* [Presentation Title](dummy-slides.txt)
+* [Go: Learn by Doing](go-learn-by-doing.pdf)
 
-## Who is NetSIG?
+## Who is VicPiMakers?
 
-NetSIG is a Special Interest Group focused on computer networking. We're
-affiliated with Victoria Raspberry PiMakers group located in Victoria, Canada.
-These presentations are currently hosted online.
+The Victoria Raspberry Pi Makers are a group of people who use the Raspberry Pi,
+the Arduino, and other micro boards running embedded Linux systems to build
+projects and learn Linux and computer programming. The group is based in
+Victoria, Canada. Their presentations are currently hosted live and online.
 
-## Where can I find more on NETSIG and presentation schedules?
+## Where can I find more on ViPiMakers and presentation schedules?
 
 * [Meetup schedule](https://www.meetup.com/Victoria-Raspberry-PiMakers-And-Others/events)
-* [NetSIG site](https://vicpimakers.ca/netsig/)
 * [Victoria PiMakers site](https://vicpimakers.ca/)
 
 ## Where can I find the cheatsheet for this presentation?
