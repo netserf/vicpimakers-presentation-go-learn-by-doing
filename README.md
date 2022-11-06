@@ -27,7 +27,7 @@ Victoria, Canada. Their presentations are currently hosted live and online.
 
 ## Where can I find the cheatsheet for this presentation?
 
-* [Template Cheat Sheet](template-cheat-sheet.txt)
+* [Template Cheat Sheet](go-learn-by-doing-cheatsheet.md)
 
 ## Contributing
 
