@@ -1,0 +1,17 @@
+# Cheat Sheet for NetSIG presentation - Go: Learn by Doing
+# For more details:
+# https://github.com/netserf/vicpimakers-presentation-go-learn-by-doing
+
+# Install Go
+# https://golang.org/doc/install
+
+# Set up your workspace
+git clone git@github.com:netserf/vicpimakers-presentation-go-learn-by-doing.git
+
+# Example #1 - Hello World
+cd examples
+go run 01_hello_world.go    # Quick test - Run the program
+go build 01_hello_world.go  # Compile the program
+ls
+./01_hello_world            # Run the compiled program 
+
