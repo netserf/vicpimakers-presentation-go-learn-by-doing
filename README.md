@@ -1,5 +1,6 @@
 # ViPiMakers Presentation - Go: Learn by Doing
 
+[![Actions Status](https://github.com/netserf/vicpimakers-presentation-go-learn-by-doing/workflows/Build/badge.svg)](https://github.com/netserf/vicpimakers-presentation-go-learn-by-doing/actions)
 [![Actions Status](https://github.com/netserf/vicpimakers-presentation-go-learn-by-doing/workflows/Docs/badge.svg)](https://github.com/netserf/vicpimakers-presentation-go-learn-by-doing/actions)
 
 ## Presentation Summary

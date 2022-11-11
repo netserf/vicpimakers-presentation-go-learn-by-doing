@@ -2,34 +2,34 @@ package main
 
 import "fmt"
 
-const constant_string_1 string = "my constant"
-const constant_integer_1 int = 1000
+const constantString1 string = "my constant"
+const constantInteger1 int = 1000
 
 func main() {
 	// variables are explicitly declared, and they can be typed explicitly
-	var string_1 string = "1st string is explicitly typed"
-	fmt.Println("string_1:", string_1)
+	var string1 string = "1st string is explicitly typed"
+	fmt.Println("string1:", string1)
 	// ... OR implicitly
-	var string_2 = "2nd string is implicitly typed"
-	fmt.Println("string_2:", string_2)
+	var string2 = "2nd string is implicitly typed"
+	fmt.Println("string2:", string2)
 
 	// shorthand declaration
-	string_3 := "3rd string is declared with the := shorthand"
-	fmt.Println("string_3:", string_3)
+	string3 := "3rd string is declared with the := shorthand"
+	fmt.Println("string3:", string3)
 
 	// multiple variables can be declared on the same line
-	var int_1, int_2 int = 1, 2
-	fmt.Println("integers:", int_1, int_2)
+	var int1, int2 int = 1, 2
+	fmt.Println("integers:", int1, int2)
 
 	// booleans
-	var bool_1 = true
-	fmt.Println("boolean:", bool_1)
+	var bool1 = true
+	fmt.Println("boolean:", bool1)
 
 	// floats
-	var float_1 = 1.2
-	fmt.Println("float:", float_1)
+	var float1 = 1.2
+	fmt.Println("float:", float1)
 
 	// constants
-	fmt.Println("constant_string_1:", constant_string_1)
-	fmt.Println("constant_integer_1:", constant_integer_1)
+	fmt.Println("constantString1:", constantString1)
+	fmt.Println("constantInteger1:", constantInteger1)
 }
