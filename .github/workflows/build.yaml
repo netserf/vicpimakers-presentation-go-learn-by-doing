@@ -31,6 +31,6 @@ jobs:
         run: |
           mkdir build
           for x in examples/*.go; do
-            echo "BUILD $x ...""
+            echo "BUILD $x ..."
             go build -o build/ $x
           done
