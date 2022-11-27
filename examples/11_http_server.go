@@ -1,8 +1,5 @@
 package main
 
-// TODO - need a pointer example
-// TODO - need a interface example
-
 import (
 	"fmt"
 	"net/http"
