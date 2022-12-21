@@ -14,8 +14,8 @@ func main() {
 		fmt.Println(num, "has multiple digits")
 	}
 
-	// also switch statements
-	fmt.Println("Go also supports switch statements:")
+	// also switch / case statements
+	fmt.Println("Go also supports switch / case statements:")
 	i := 2
 	fmt.Print("Write ", i, " as ")
 	switch i {
