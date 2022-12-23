@@ -5,11 +5,15 @@ import (
 	"net/http"
 )
 
+const port = ":8090"
+
 func hello(w http.ResponseWriter, req *http.Request) {
+	fmt.Println("Received request on /hello")
 	fmt.Fprintf(w, "hello\n")
 }
 
 func headers(w http.ResponseWriter, req *http.Request) {
+	fmt.Println("Received request on /headers")
 	for name, headers := range req.Header {
 		for _, h := range headers {
 			fmt.Fprintf(w, "%v: %v\n", name, h)
@@ -19,7 +23,6 @@ func headers(w http.ResponseWriter, req *http.Request) {
 
 // You can create a basic HTTP server using the net/http package.
 func main() {
-	port := ":8090"
 	// net/http servers use handlers to register server behaviour.
 	// A handler is an object implementing the http.Handler interface. A common
 	// way to write a handler is by using the http.HandlerFunc adapter on
