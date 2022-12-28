@@ -38,3 +38,8 @@ discuss what you would like to change.
 ## License
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+## Attribution
+
+This presentation borrows heavily from the [Go By Example](https://gobyexample.com/)
+site. Thanks to the authors of that site for their work.
