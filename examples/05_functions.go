@@ -13,12 +13,29 @@ func plusPlus(a, b, c int) int {
 	return a + b + c
 }
 
+// Functions can also return multiple values.
+func plusAndMinus(a, b int) (int, int) {
+	return a + b, a - b
+}
+
+// Function can take variadic parameters - i.e. an arbitrary number of arguments
+func sum(nums ...int) int {
+	total := 0
+	for _, num := range nums {
+		total += num
+	}
+	return total
+}
+
 // Call a function as with other languages using functionName(args).
 func main() {
-	one, two, three := 1, 2, 3
-	result := plus(one, two)
-	fmt.Println(one, "+", two, "=", result)
+	fmt.Println("1 + 2 =", plus(1, 2))
 
-	result = plusPlus(1, 2, 3)
-	fmt.Println(one, "+", two, "+", three, "=", result)
+	fmt.Println("1 + 2 + 3 =", plusPlus(1, 2, 3))
+
+	plusResult, minusResult := plusAndMinus(5, 2)
+	fmt.Println("5 + 2 =", plusResult)
+	fmt.Println("5 - 2 =", minusResult)
+
+	fmt.Println("1 + 2 + 3 + 4 + 5 =", sum(1, 2, 3, 4, 5))
 }
