@@ -16,20 +16,20 @@ func main() {
 	}
 
 	// A classic initial/condition/after for loop.
-	fmt.Print("\n\nLoop 2:  ")
+	fmt.Print("\nLoop 2:  ")
 	for j := 7; j <= 9; j++ {
 		fmt.Print(j, " ")
 	}
 
 	// A for loop without a condition will loop repeatedly a break statement.
-	fmt.Print("\n\nLoop 3:  ")
+	fmt.Print("\nLoop 3:  ")
 	for {
 		fmt.Println("loop until break")
 		break
 	}
 
 	// You can also use the continue statement to skip to the next iteration.
-	fmt.Print("\nLoop 4:  ")
+	fmt.Print("Loop 4:  ")
 	for k := 0; k <= 5; k++ {
 		if k%2 == 0 {
 			continue

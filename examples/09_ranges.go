@@ -13,7 +13,7 @@ func main() {
 	sum := 0
 	// Use a range to iterate over the array of numbers.
 	// A range returns both index and value. In this case we don't need the
-	// range so we use the blank (_) identifier to indicate we're ignoring it.
+	// index so we use the blank (_) identifier to indicate we're ignoring it.
 	for _, num := range numbersArray {
 		sum += num
 	}
