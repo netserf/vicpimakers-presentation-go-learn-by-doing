@@ -19,7 +19,7 @@ func main() {
 
 	// A constant is a simple, immutable value.
 	// Uncommenting the following line will result in an error.
-	// constantInteger1 = 2000
+	// constInteger1 = 2000
 
 	// Variables are explicitly declared, and can be explicitly typed
 	var string1 string = "1st string is explicitly typed"
