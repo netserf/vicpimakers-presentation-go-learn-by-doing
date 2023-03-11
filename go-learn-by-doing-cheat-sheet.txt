@@ -10,50 +10,43 @@ git clone git@github.com:netserf/vicpimakers-presentation-go-learn-by-doing.git
 
 # Example #1 - Hello World
 cd examples
-go run 01_hello_world.go    # Quick test - Run the program
 go build 01_hello_world.go  # Compile the program
 ./01_hello_world            # Run the compiled program 
+go run 01_hello_world.go    # Quick test - Run the program (like in interpreter)
 
 # Example #2 - Variables & Constants
-go build 02_variables_and_constants.go
-./02_variables_and_constants
+go run 02_variables_and_constants.go
 
 # Example #3 - Conditionals & Switches
-go build 03_conditionals_and_switches.go
-./03_conditionals_and_switches.go
+go run 03_conditionals_and_switches.go
 
 # Example #4 - Loops
-go build 04_loops.go
-./04_loops.go
+go run 04_loops.go
 
 # Example #5 - Functions
-go build 05_functions.go
-./05_functions.go
+go run 05_functions.go
 
 # Example #6 - Arrays
-go build 06_arrays.go
-./06_arrays.go
+go run 06_arrays.go
 
 # Example #7 - Slices
-go build 07_slices.go
-./07_slices.go
+go run 07_slices.go
 
 # Example #8 - Maps
-go build 08_maps.go
+go run 08_maps.go
 ./08_maps.go
 
 # Example #9 - Ranges
-go build 09_ranges.go
+go run 09_ranges.go
 ./09_ranges.go
 
 # Example #10 - Pointers
-go build 10_pointers.go
-./10_pointers.go
+go run 10_pointers.go
 
 # Example #11 - HTTP Server
-go build 11_http_server.go
-./11_http_server.go
+go run 11_http_server.go
 
     # on a separate terminal 
-    curl http://localhost:8090
-    curl http://localhost:8090/hello
+    curl http://localhost:8080/
+    curl http://localhost:8080/hello
+    curl http://localhost:8080/headers
